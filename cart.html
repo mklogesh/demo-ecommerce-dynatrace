@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Demo E-Commerce Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    <main>
+        <div id="cart-items"></div>
+        <div id="cart-total"></div>
+        <button id="checkout-btn">Checkout</button>
+        <div id="order-confirmation" style="display:none;">
+            <h2>Thank you for your purchase!</h2>
+            <p>Your order has been placed successfully.</p>
+            <a href="index.html">Continue Shopping</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Demo E-Commerce Shop</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
